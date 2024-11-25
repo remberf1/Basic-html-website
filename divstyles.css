@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.flex-container{
+    height: 100vh;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div1,.div2{
+    border: 1px solid black;
+    height: 30%;
+}
+.div2{
+    display: flex;
+}
+#column1{
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#column2{
+    background-color: lightblue;
+    width: 40%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#column3{
+    background-color: blueviolet;
+    width: 30%;
+    border: 1px solid black;
+    float: right;
+}
+#row1 {
+    background-color: lightgreen;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#row2 {
+    background-color: lightcoral;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.project {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
