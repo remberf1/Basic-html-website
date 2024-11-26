@@ -4,14 +4,13 @@ html, body {
 }
 
 .flex-container{
-    height: 100vh;
+    height: 100%;
     display: grid;
     flex-direction: column;
     justify-content: space-around;
 }
-.div1,.div2{
-    border: 1px solid black;
-    height: 30%;
+.div1,.div3{
+    background-color: lightseagreen;
 }
 .div2{
     display: flex;

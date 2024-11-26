@@ -24,34 +24,3 @@ nav ul li a {
     text-decoration: none;
     display: inline;       /* Removes underline from links */
 }
-
-.job-description{
-    text-align: center;
-    border: 1px solid black;
-}
-.section-2-div{
-    display: flex;
-    width: 100%;
-}
-.projects-div{
-    border: 1px solid black;
-}
-.work-experience-div{
-    border: 1px solid black;
-    display: flex;
-}
-.education-div{
-    border: 1px solid black;
-    display: flex;
-}
-.flex-container {
-    display: flex;
-    background-color: DodgerBlue;
-    height: 200px;
-  }
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
